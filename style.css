@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family: 'adelia';
+    src: url(fonts/adelia.otf);
+}
+
+body{
+    background: linear-gradient( to left, rgb(0, 0, 0), rgba(0, 0, 0, 0.279)), url(./images/dom_casmurro_e_capitu_by_wilustra_d4q1u8e.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+
+}
+
+#main_container{
+    margin-top: 5%;
+    margin-left: 60%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    
+}
+
+#main_container button{
+    background-color: inherit;
+    color: rgb(207, 208, 173);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#capitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(207, 208, 173);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+img{
+    height: 300px;
+}
+
+
+#anterior, #proximo {
+    font-size: 2.2rem;
+  }
+  
+#play_pause {
+    font-size: 3rem;
+  }
+
+#container__buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+#frase{
+    display: flex;
+    justify-content: left;
+    align-items: normal;
+    font-family: 'adelia', 'times', cursive;
+    color: antiquewhite;
+    font-size: 2rem;
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: rgba(250, 235, 215, 0.362);
+    
+}
+
+#artist{
+    color: inherit;
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgba(250, 235, 215, 0.06);
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+}
